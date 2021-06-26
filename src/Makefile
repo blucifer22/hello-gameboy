@@ -14,7 +14,7 @@ LCC = $(GBDK_HOME)bin/lcc
 # You can set the name of the .gb ROM file here
 PROJECTNAME    = hello_gameboy
 
-BINS	    = $(PROJECTNAME).gb
+BINS	    = ../bin/$(PROJECTNAME).gb
 CSOURCES   := $(wildcard *.c)
 ASMSOURCES := $(wildcard *.s)
 
